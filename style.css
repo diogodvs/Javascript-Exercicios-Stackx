@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(85, 82, 82), black);
+}
+
+img{
+    width: 100vw;
+    height: 240px;
+}
+.conteudo{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h1{
+    color: rgb(158, 158, 236);
+    text-shadow: black 5px 5px 10px ;
+    font-size: 50px;
+}
+
+.exercicios{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.conjunto-3-exercicios{
+    display: flex;
+}
+
+.ex-um{
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid aqua;
+    margin-bottom: 10px;
+}
+
+.ex-dois{
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid rgba(233, 49, 150, 0.603);
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    border: solid 1px ;
+    border-radius: 10px;
+    background-color: rgba(34, 34, 235, 0.288);
+    font-size: large;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    
+}
